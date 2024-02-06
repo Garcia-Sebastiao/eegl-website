@@ -2,3 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+.no-scroll {
+  scrollbar-width: thin;
+  scrollbar-color: transparent transparent;
+  overflow: -moz-scrollbars-none;
+  overflow: scroll;
+}
+.no-scroll::-webkit-scrollbar {
+  display: none;
+}
