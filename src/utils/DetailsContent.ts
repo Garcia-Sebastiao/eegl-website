@@ -1,4 +1,4 @@
-export const DetailsContent = [
+const DetailsContent = [
   {
     label: "Valores",
     texts: [
@@ -29,3 +29,5 @@ export const DetailsContent = [
     ],
   },
 ];
+
+export default DetailsContent;

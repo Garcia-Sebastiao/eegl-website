@@ -3,9 +3,9 @@ import { Footer } from "@/components/layout/Footer/Footer";
 import { Header } from "@/components/layout/Header/Header";
 import { Poppins } from "next/font/google";
 import Image from "next/image";
-import { AboutContent } from "./components/About";
-import { PartnersSection } from "./components/PartnersSection";
-import { DetailsSection } from "./components/DetailsSection";
+import AboutContent from "./components/About";
+import PartnersSection from "./components/PartnersSection";
+import DetailsSection from "./components/DetailsSection";
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -14,7 +14,9 @@ const poppins = Poppins({
 
 export default function Home() {
   return (
-    <div className={`relative overflow-x-hidden min-h-screen ${poppins.className}`}>
+    <div
+      className={`relative overflow-x-hidden min-h-screen ${poppins.className}`}
+    >
       <div className="w-full -z-10 h-full absolute top-0 left-0">
         <Image
           src={Background}

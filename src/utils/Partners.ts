@@ -8,7 +8,7 @@ import {
   SGA,
 } from "@/assets/partners";
 
-export const Partners = [
+const Partners = [
   { name: "Alcaal", image: Alcaal },
   { name: "Prodel", image: Prodel },
   { name: "Carrinho", image: Carrinho },
@@ -17,3 +17,5 @@ export const Partners = [
   { name: "Prumo", image: Prumo },
   { name: "SGA", image: SGA },
 ];
+
+export default Partners;

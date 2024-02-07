@@ -1,9 +1,9 @@
 "use client";
 import { useEffect, useState } from "react";
-import { DetailsContent } from "../utils/DetailsContent";
-import { Detail } from "./Detail";
+import DetailsContent from "../../../utils/DetailsContent";
+import Detail from "./Detail";
 
-export function DetailsSection() {
+export default function DetailsSection() {
   const [active, setActive] = useState<number>(0);
 
   useEffect(() => {

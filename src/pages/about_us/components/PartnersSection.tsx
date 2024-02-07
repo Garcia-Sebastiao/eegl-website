@@ -1,7 +1,7 @@
 import Image from "next/image";
-import { Partners } from "../utils/Partners";
+import Partners from "../../../utils/Partners";
 
-export function PartnersSection() {
+export default function PartnersSection() {
   return (
     <div className="flex flex-col items-center w-full">
       <h2 className="text-[30px] font-bold text-primary">NOSSOS PARCEIROS</h2>

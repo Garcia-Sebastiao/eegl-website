@@ -1,4 +1,4 @@
-export function AboutContent() {
+export default function AboutContent() {
   return (
     <div className="flex gap-x-[61px] ">
       <div className="w-[284px] h-[236px] flex-none rounded-[10px] flex items-center justify-center bg-primary">
