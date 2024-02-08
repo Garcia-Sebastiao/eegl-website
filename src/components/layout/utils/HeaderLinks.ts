@@ -1,6 +1,6 @@
 export const HeaderLinks = [
   { name: "Quem somos", href: "/about_us" },
-  { name: "Áreas de atuação", href: "/areas" },
+  { name: "Áreas de atuação", href: "/our_companies" },
   {
     name: "Portofólio",
     href: "/portfolio",
@@ -16,5 +16,23 @@ export const HeaderLinks = [
   {
     name: "contacts",
     href: "/contacts",
+  },
+];
+
+export const Links = [
+  {
+    key: "home",
+    label: "Inicio",
+    href: "#",
+  },
+  {
+    key: "about_us",
+    label: "Sobre nos",
+    href: "#",
+  },
+  {
+    key: "services",
+    label: "Serviços",
+    href: "#",
   },
 ];
