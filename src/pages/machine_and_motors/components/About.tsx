@@ -1,7 +1,7 @@
 import { AboutImage } from "@/assets/machine_and_motors";
 import Image from "next/image";
 
-export function About() {
+export default function About() {
   return (
     <div className="flex gap-x-[75px]">
       <Image className="max-w-[543px]" src={AboutImage} alt="" />

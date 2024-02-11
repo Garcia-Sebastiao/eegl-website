@@ -1,6 +1,6 @@
 import Input from "@/pages/contacts/components/Input";
 
-export function Contacts() {
+export default function Contacts() {
   return (
     <div className="bg-primaryText py-24 w-full">
       <div className="container px-20 mx-auto flex gap-y-10 flex-col items-center">

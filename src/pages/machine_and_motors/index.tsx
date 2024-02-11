@@ -2,12 +2,12 @@ import { Poppins } from "next/font/google";
 import Header from "./components/Header/Header";
 import { Cars, frame } from "@/assets";
 import Image from "next/image";
-import { About } from "./components/About";
-import { Counters } from "./components/Counters";
-import { Services } from "./components/Services";
+import About from "./components/About";
+import Counters from "./components/Counters";
+import Services from "./components/Services";
 import { Map } from "@/components/layout/Map/Map";
-import { Contacts } from "./components/Contacts";
-import { Footer } from "./components/Footer";
+import Contacts from "./components/Contacts";
+import Footer from "./components/Footer";
 
 const poppins = Poppins({
   subsets: ["latin"],

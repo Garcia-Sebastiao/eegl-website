@@ -1,7 +1,7 @@
 import { CountersBanner } from "@/assets/machine_and_motors";
 import Image from "next/image";
 
-export function Counters() {
+export default function Counters() {
   return (
     <div className="w-full py-[102px] mt-[10px] flex justify-center h-[551px] relative">
       <Image

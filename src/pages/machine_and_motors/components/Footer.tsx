@@ -2,7 +2,7 @@ import { FacebookIcon, InstagramIcon, LinkedInIcon } from "@/assets/icons";
 import Image from "next/image";
 import Link from "next/link";
 
-export function Footer({
+export default function Footer({
   className,
   color,
 }: {

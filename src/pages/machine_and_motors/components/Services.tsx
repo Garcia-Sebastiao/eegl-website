@@ -6,7 +6,7 @@ import {
 import Image from "next/image";
 import Link from "next/link";
 
-export function Services() {
+export default function Services() {
   return (
     <div className="flex w-full flex-col mt-[60px] items-center">
       <div className="flex items-center flex-col gap-y-[69px]">
