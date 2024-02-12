@@ -9,7 +9,7 @@ export function Header() {
 
   return (
     <header className="w-full">
-      <div className="w-full justify-between flex gap-x-[70px] items-center container mx-auto py-5">
+      <div className="w-full flex gap-x-20 items-center container mx-auto py-5">
         <Link href="/">
           <Image className="w-24" src={Logo} alt="logo" />
         </Link>

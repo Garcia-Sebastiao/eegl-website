@@ -20,13 +20,18 @@ export default function Home() {
       className={`relative overflow-x-hidden min-h-screen ${poppins.className}`}
     >
       <Header />
-      <div className="w-full min-h-screen relative">
+      <div className="w-full min-h-screen pt-28 relative">
         <Image
           src={frame}
           className="absolute -z-10 -top-48 right-0"
           alt="Frame"
         />
-        <div className="mx-auto container pb-20 flex items-center justify-between py-10">
+        <Image
+          src={Cars}
+          alt="Cars"
+          className="max-w-[864px] absolute right-0 -top-6"
+        />
+        <div className="mx-auto container pb-48 flex items-center justify-between">
           <div className="flex flex-col">
             <h2 className="text-[64px] font-light leading-none text-primaryText">
               Cuidamos do seu
@@ -38,8 +43,6 @@ export default function Home() {
               Qualidade e excelência!
             </h2>
           </div>
-
-          <Image src={Cars} alt="Cars" className="max-w-[864px] mr-24" />
         </div>
 
         <About />
