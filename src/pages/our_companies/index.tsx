@@ -33,7 +33,7 @@ export default function Home() {
           <Link href="/machine_and_motors">
             <Image src={MaquinasLogo} className="w-[246px]" alt="Maquinas" />
           </Link>
-          <Link href="#">
+          <Link href="/eegl_landing">
             <Image src={Logo2} className="w-[272px] mt-8" alt="EGGL" />
           </Link>
         </div>

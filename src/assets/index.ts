@@ -8,4 +8,5 @@ export { default as Cars } from "./cars.png";
 export { default as Map } from "./map.png";
 export { default as Logo2 } from "./eegl-logo2.png";
 export { default as logo } from "./logo.svg";
+export { default as eegl_secondary_logo } from "./eegl-secondary.svg";
 export { default as frame } from "./frame.svg";

@@ -36,3 +36,26 @@ export const Links = [
     href: "#",
   },
 ];
+
+export const eegl_links = [
+  {
+    key: "home",
+    label: "Página inicial",
+    href: "/",
+  },
+  {
+    key: "about",
+    label: "Sobre nós",
+    href: "#",
+  },
+  {
+    key: "services",
+    label: "Serviços",
+    href: "#",
+  },
+  {
+    key: "contacts",
+    label: "Contactos",
+    href: "/",
+  },
+];
